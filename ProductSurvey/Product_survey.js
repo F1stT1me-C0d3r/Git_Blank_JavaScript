@@ -1,3 +1,5 @@
+ const submitButton=document.getElementById('submitBtn');
+
 function submitFeedback() {
     const username = document.getElementById('name').value;
     const age = document.getElementById('age').value;
@@ -8,7 +10,6 @@ function submitFeedback() {
     const feedback = document.getElementById('feedbackText').value;
     // Display the thank you message
     alert('Thank you for your valuable feedback');
-    const submitButton=document.getElementById('submitBtn');
     document.getElementById('userName').innerHTML = username;
     document.getElementById('userAge').innerHTML = age;
     document.getElementById('userEmail').innerHTML = email;
